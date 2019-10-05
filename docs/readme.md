@@ -1,61 +1,83 @@
-# What is Docker?
+What is Docker?
+===============
 
-## Operation System Level Virtualization
+Operation System Level Virtualization
+-------------------------------------
 
-## Application Level Isolation
+Application Level Isolation
+---------------------------
 
-# Why is Docker Important?
+Why is Docker Important?
+========================
 
-## Container metaphor
+Container metaphor
+------------------
 
-# Docker Use Cases
+Docker Use Cases
+================
 
-## (Hyper) Scaling with containers
+(Hyper) Scaling with containers
+-------------------------------
 
-## Dev-Test-Build-Deploy pipeline
+Dev-Test-Build-Deploy pipeline
+------------------------------
 
-## Infrastructure As Code
+Infrastructure As Code
+----------------------
 
-## Packaging Legacy Application
+Packaging Legacy Application
+----------------------------
 
-## Migration to Modern Infrastructure/Cloud
+Migration to Modern Infrastructure/Cloud
+----------------------------------------
 
-# Docker Architecture
+Docker Architecture
+===================
 
-## Docker Daemon (Host)
+Host (Docker Daemon)
+--------------------
 
-## Client
+Client
+------
 
-## Technical Components
-+ Container format (libcontainer on linux)
-+ Isolation (linux kernal namespaces)
+Technical Components
+====================
+- Container format (libcontainer on linux)
+- Isolation (linux kernal namespaces)
     1. filesystem - layered performant isolated root file system with copy on write semantics
     2. process - isolated process environment
     3. network - isolated virtual network interfaces and ips
-+ Resource Groups (linux kernal control groups)
+- Resource Groups (linux kernal control groups)
 
-# Docker on Linux vs Docker on Windows?
+Docker on Linux vs Docker on Windows?
+-------------------------------------
 
-# Docker Concepts
+Docker Concepts
+===============
 
-## Docker Images
+Docker Images
+-------------
 
-## Docker Container
+Docker Container
+----------------
 
-## Docker Registries
+Docker Registries
+-----------------
 
-## Docker Volume
+Docker Volumes
+--------------
 
-# Docker Tools
+Docker Tools
+============
 
-## dockerfile
+docker-compose
+--------------
 
-## docker run
+swarm
+-----
 
-## docker-compose
+rancher
+-------
 
-## swarm
-
-## rancher
-
-## kubernetes
+kubernetes
+----------

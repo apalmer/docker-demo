@@ -59,7 +59,7 @@ Docker is based on core Linux kernel functionality which have been in place sinc
 ### Windows
 
 Docker on Windows is based on relatively new functionality implemented in the Windows OS since 2016. 
-- Windows 10 _1809_
+- Windows 10
 - Windows Server 2016
 - Windows Server 2019
 
@@ -102,3 +102,14 @@ rancher
 
 kubernetes
 ----------
+
+Bibliography
+============
+
+Quickstart Docker Environments:
+
+[Play with Docker](https://labs.play-with-docker.com/)
+
+[Azure DevTestLabs](https://azure.microsoft.com/en-us/services/devtest-lab/)
+
+[Docker Desktop](https://www.docker.com/products/docker-desktop)

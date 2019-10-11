@@ -88,11 +88,14 @@ Docker Registries
 Docker Volumes
 --------------
 
-Orchestrators
-============
+Composition 
+===========
 
 docker-compose
 --------------
+
+Orchestrators
+============
 
 swarm
 -----

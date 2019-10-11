@@ -43,6 +43,22 @@ Operation System Level Virtualization
 =====================================
 ![OS Level Virtualization](/docker-demo/images/docker-virtualization.png)
 
+Docker Architecture
+===================
+![Docker Architecture](/docker-demo/images/docker-architecture-2.png)
+
+Host (Docker Daemon)
+--------------------
+[Official Docker Documentation:](https://docs.docker.com/engine/docker-overview/)
+>The Docker daemon (dockerd) listens for Docker API requests and manages Docker objects such as images, containers, networks, and volumes. A daemon can also communicate with other daemons to manage Docker services.
+
+Client
+------
+[Official Docker Documentation:](https://docs.docker.com/engine/docker-overview/)
+>The Docker client (docker) is the primary way that many Docker users interact with Docker. When you use commands such as docker run, the client sends these commands to dockerd, which carries them out. The docker command uses the Docker API. The Docker client can communicate with more than one daemon.
+
+![Docker Architectural Detail](docker-demo/images/docker-architecture-detail-windows.png)
+
 Technical Components
 --------------------
 - Container format (libcontainer on linux)
@@ -51,17 +67,6 @@ Technical Components
     2. process - isolated process environment
     3. network - isolated virtual network interfaces and ips
 - Resource Groups (linux kernal control groups)
-
-Docker Architecture
-===================
-![Docker Architecture](/docker-demo/images/docker-architecture-2.png)
-
-Host (Docker Daemon)
---------------------
-
-Client
-------
-
 
 Docker on Linux vs Docker on Windows?
 -------------------------------------

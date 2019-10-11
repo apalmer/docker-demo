@@ -70,13 +70,13 @@ Docker on Linux vs Docker on Windows?
 -------------------------------------
 
 ### Linux
-![Docker Architectural Detail](docker-demo/images/docker-architectural-detail-linux.png)
+![Docker Architectural Detail](/docker-demo/images/docker-architectural-detail-linux.png)
 
 Docker is based on core Linux kernel functionality which have been in place since approximately 2006 timeframe. 
 
 
 ### Windows
-![Docker Architectural Detail](docker-demo/images/docker-architectural-detail-windows.png)
+![Docker Architectural Detail](docker-demo/images/docker-architectural-detail-linux.png)
 
 Docker on Windows is based on relatively new functionality implemented in the Windows OS since 2016. 
 - Windows 10
@@ -85,7 +85,7 @@ Docker on Windows is based on relatively new functionality implemented in the Wi
 
 Docker does not support Windows (WinForms, etc) user interfaces.
 
-[Windows Container's vs Hyper-V Containers](docker-container-windows-vs-hyper-v.png)
+![Windows Container's vs Hyper-V Containers](/docker-demo/images/docker-container-windows-vs-hyper-v.png)
 Hyper-V Containers
 - Licensing of Hyper-V containers is constrained by the licensing cost of running each container in its own lightweight VM, as each VM requires a separate license, 1 host with 100 containers running on it requires 100 licenses
 - Windows version of host and clients do not have to match
@@ -94,7 +94,7 @@ Windows Server Containers
 - Licensing of Windows Server Containers is at the Docker host level, i.e. 1 license of for 1 host with 100 containers running on it requires 1 license
 - Windows version of the host and the clients must match
 
-[Docker on Windows](docker-container-windows-vs-hyper-v.png)
+![Docker on Windows](/docker-demo/images/docker-container-windows-vs-hyper-v.png)
 There are at least 3 different ways to run Linux containers on Windows:
 1. [Linux containers in a Moby VM](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers)
 2. [Linux Containers with Hyper-V isolation](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers)

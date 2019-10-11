@@ -41,7 +41,7 @@ Migration to Modern Infrastructure/Cloud
 
 Operation System Level Virtualization
 =====================================
-![OS Level Virtualization](/docker-demo/images/docker-virtualization.png)
+![OS Level Virtualization](/docker-demo/images/docker-virtualization-3.png)
 
 Docker Architecture
 ===================
@@ -96,6 +96,7 @@ Windows Server Containers
 - Windows version of the host and the clients must match
 
 ![Docker on Windows](/docker-demo/images/docker-on-windows-windows-and-linux.png)
+
 Docker on Windows supports running both Windows (OS) containers and Linux (OS) containers. There are at least 3 different ways to run Linux containers on Windows:
 1. [Linux containers in a Moby VM](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers)
 2. [Linux Containers with Hyper-V isolation](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers)
@@ -127,9 +128,6 @@ Orchestrators
 
 swarm
 -----
-
-rancher
--------
 
 kubernetes
 ----------

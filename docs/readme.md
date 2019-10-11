@@ -135,6 +135,26 @@ kubernetes
 Bibliography
 ============
 
+[Official Docker Documentation](https://docs.docker.com/engine/docker-overview/)
+
+[Microsoft Documentation](https://docs.microsoft.com/en-us/virtualization/windowscontainers/)
+
+Books
+-----
+[The Docker Book](https://dockerbook.com/)
+
+[Docker on Windows - Second Edition](https://www.packtpub.com/virtualization-and-cloud/docker-windows-second-edition)
+
+[Learn Docker - Fundamentals of Docker 18.x](https://www.packtpub.com/networking-and-servers/learn-docker-fundamentals-docker-18x)
+
+[The Docker Ecosystem](https://washraf.gitbooks.io/the-docker-ecosystem)
+
+Websites
+--------
+[A Not Very Short Introduction to Docker](https://blog.jayway.com/2015/03/21/a-not-very-short-introduction-to-docker/)
+
+[Demystifying Containers 101: A Deep Dive Into Container Technology for Beginners](https://www.freecodecamp.org/news/demystifying-containers-101-a-deep-dive-into-container-technology-for-beginners-d7b60d8511c1/)
+
 Quickstart Docker Environments:
 
 [Play with Docker](https://labs.play-with-docker.com/)

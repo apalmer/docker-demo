@@ -104,20 +104,33 @@ Docker on Windows supports running both Windows (OS) containers and Linux (OS) c
 
 Docker Concepts
 ===============
+One of the key compelling benefits of the modern IT  containerization is it supports the paradigm shift to *Infrastructure as Code*
+>Infrastructure as Code (IaC) is the management of infrastructure (networks, virtual machines, load balancers, and connection topology) in a descriptive model, using the same versioning as DevOps team uses for source code. Like the principle that the same source code generates the same binary, an IaC model generates the same environment every time it is applied. IaC is a key DevOps practice and is used in conjunction with continuous delivery.
+
+The following key docker terms are explained in terms of familiar programming concepts.
 
 Docker Images
 -------------
+![Layered Union File System](/docker-demo/images/docker-image-layers.png)
+
+An image is analogous to a C# class definition, it describes the blueprint of how to build new objects.
 
 Docker Container
 ----------------
+A container is analogous to an instantiated live object based on an image (class). 
 
 Docker Registries
 -----------------
+![Docker Registry](/docker-demo/images/docker-registry.png)
+
+A registry serves a similar purpose to a source control service/server such as Github or Team Foundation Server, or a dependency package repository such as Nuget or NPM.
 
 Docker Volumes
 --------------
+A volume is a directory (on linux can also be an individual file) in the container from the host which 
+lives beyond the life span of the container. Somewhat similar to a mapped drive.
 
-Composition 
+Composition
 ===========
 
 docker-compose
@@ -155,7 +168,10 @@ Websites
 
 [Demystifying Containers 101: A Deep Dive Into Container Technology for Beginners](https://www.freecodecamp.org/news/demystifying-containers-101-a-deep-dive-into-container-technology-for-beginners-d7b60d8511c1/)
 
-Quickstart Docker Environments:
+[What is Infrastructure as Code?](https://docs.microsoft.com/en-us/azure/devops/learn/what-is-infrastructure-as-code)
+
+Quickstart Docker Environments
+------------------------------
 
 [Play with Docker](https://labs.play-with-docker.com/)
 

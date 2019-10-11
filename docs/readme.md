@@ -1,13 +1,12 @@
 What is Docker?
 ===============
-
-![GitHub Logo](/docker-demo/images/docker-logo.png)
-![NEWNESS](/images/VM%402x.png)
+![Docker Logo](/docker-demo/images/docker-logo.png)
 
 Operation System Level Virtualization
 -------------------------------------
+![OS Level Virtualization](/docker-demo/images/docker-virtualization.png)
 
-Application Level Isolation
+Process Level Isolation
 ---------------------------
 
 Why is Docker Important?

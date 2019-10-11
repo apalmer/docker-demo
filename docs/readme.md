@@ -70,13 +70,13 @@ Docker on Linux vs Docker on Windows?
 -------------------------------------
 
 ### Linux
-![Docker Architectural Detail](/docker-demo/images/docker-architectural-detail-linux.png)
+![Docker Architectural Detail Linux](/docker-demo/images/docker-architectural-detail-linux.png)
 
 Docker is based on core Linux kernel functionality which have been in place since approximately 2006 timeframe. 
 
 
 ### Windows
-![Docker Architectural Detail](docker-demo/images/docker-architectural-detail-windows.png)
+![Docker Architectural Detail Windows](docker-demo/images/docker-architectural-detail-windows.png)
 
 Docker on Windows is based on relatively new functionality implemented in the Windows OS since 2016. 
 - Windows 10
@@ -86,6 +86,7 @@ Docker on Windows is based on relatively new functionality implemented in the Wi
 Docker does not support Windows (WinForms, etc) user interfaces.
 
 ![Windows Container's vs Hyper-V Containers](/docker-demo/images/docker-container-windows-vs-hyper-v.png)
+
 Hyper-V Containers
 - Licensing of Hyper-V containers is constrained by the licensing cost of running each container in its own lightweight VM, as each VM requires a separate license, 1 host with 100 containers running on it requires 100 licenses
 - Windows version of host and clients do not have to match
@@ -95,7 +96,7 @@ Windows Server Containers
 - Windows version of the host and the clients must match
 
 ![Docker on Windows](/docker-demo/images/docker-on-windows-windows-and-linux.png)
-There are at least 3 different ways to run Linux containers on Windows:
+Docker on Windows supports running both Windows (OS) containers and Linux (OS) containers. There are at least 3 different ways to run Linux containers on Windows:
 1. [Linux containers in a Moby VM](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers)
 2. [Linux Containers with Hyper-V isolation](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers)
 3. [Windows Subsystem for Linux 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-about)

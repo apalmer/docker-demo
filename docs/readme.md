@@ -33,15 +33,15 @@ Dev-Test-Build-Deploy pipeline
 Infrastructure As Code
 ----------------------
 
-Packaging Legacy Application
-----------------------------
+Packaging Legacy Applications
+-----------------------------
 
 Migration to Modern Infrastructure/Cloud
 ----------------------------------------
 
 Operation System Level Virtualization
 =====================================
-![OS Level Virtualization](/docker-demo/images/docker-virtualization-2.png)
+![OS Level Virtualization](/docker-demo/images/docker-virtualization.png)
 
 Docker Architecture
 ===================
@@ -57,8 +57,6 @@ Client
 [Official Docker Documentation:](https://docs.docker.com/engine/docker-overview/)
 >The Docker client (docker) is the primary way that many Docker users interact with Docker. When you use commands such as docker run, the client sends these commands to dockerd, which carries them out. The docker command uses the Docker API. The Docker client can communicate with more than one daemon.
 
-![Docker Architectural Detail](docker-demo/images/docker-architecture-detail-windows.png)
-
 Technical Components
 --------------------
 - Container format (libcontainer on linux)
@@ -72,10 +70,13 @@ Docker on Linux vs Docker on Windows?
 -------------------------------------
 
 ### Linux
+![Docker Architectural Detail](docker-demo/images/docker-architectural-detail-linux.png)
 
 Docker is based on core Linux kernel functionality which have been in place since approximately 2006 timeframe. 
 
+
 ### Windows
+![Docker Architectural Detail](docker-demo/images/docker-architectural-detail-windows.png)
 
 Docker on Windows is based on relatively new functionality implemented in the Windows OS since 2016. 
 - Windows 10
@@ -84,6 +85,7 @@ Docker on Windows is based on relatively new functionality implemented in the Wi
 
 Docker does not support Windows (WinForms, etc) user interfaces.
 
+[Windows Container's vs Hyper-V Containers](docker-container-windows-vs-hyper-v.png)
 Hyper-V Containers
 - Licensing of Hyper-V containers is constrained by the licensing cost of running each container in its own lightweight VM, as each VM requires a separate license, 1 host with 100 containers running on it requires 100 licenses
 - Windows version of host and clients do not have to match
@@ -91,6 +93,12 @@ Hyper-V Containers
 Windows Server Containers
 - Licensing of Windows Server Containers is at the Docker host level, i.e. 1 license of for 1 host with 100 containers running on it requires 1 license
 - Windows version of the host and the clients must match
+
+[Docker on Windows](docker-container-windows-vs-hyper-v.png)
+There are at least 3 different ways to run Linux containers on Windows:
+1. [Linux containers in a Moby VM](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers)
+2. [Linux Containers with Hyper-V isolation](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers)
+3. [Windows Subsystem for Linux 2](https://docs.microsoft.com/en-us/windows/wsl/wsl2-about)
 
 Docker Concepts
 ===============

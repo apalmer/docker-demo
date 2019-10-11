@@ -2,18 +2,24 @@ What is Docker?
 ===============
 ![Docker Logo](/docker-demo/images/docker-logo.png)
 
-Docker is a technology which provides containerization of processes on Linux, MacOS and Windows operating systems. A containerized process is isolated from other processes executing on the operating system. From the point of view of the containerized process it is running 'alone' on the OS. The resources that it uses such as the filesystem, network, etc are 'virtualized' (namespaced in Linux). Docker containerization is a standardized/ergonomic wrapper around low level Operating System services that provide isolation. Hence this approach to process isolation is commonly known as Operating System Level Virtualization.
-
-Operation System Level Virtualization
--------------------------------------
-![OS Level Virtualization](/docker-demo/images/docker-virtualization.png)
-
+Docker is a technology which provides containerization of processes on Linux, MacOS and Windows operating systems. A containerized process is isolated from other processes executing on the operating system. From the point of view of the containerized process it is running 'alone' on the OS. The resources that it uses such as the filesystem, network, etc are 'virtualized' (namespaced in Linux). Docker containers are a standardized (Open Container Initiative) ergonomic wrapper around low level Operating System services that provide isolation. Hence this approach to process isolation is commonly known as Operating System Level Virtualization.
 
 Why is Docker Important?
 ========================
+According to [Docker Inc's](https://www.docker.com/why-docker) marketing research migrating to containers significantly improve:
+
+- Time to Market (300%)
+- Developer Productivity (1300%)
+- Deployment Velocity (60%)
+- IT Infrastructure Reduction (40%)
+- IT Operation Efficiency (40%)
 
 Container metaphor
 ------------------
+[Wikipedia](https://en.wikipedia.org/wiki/Containerization)
+>Containerization is a system of intermodal freight transport using intermodal containers (also called shipping containers and ISO containers).[1] The containers have standardized dimensions. They can be loaded and unloaded, stacked, transported efficiently over long distances, and transferred from one mode of transport to another—container ships, rail transport flatcars, and semi-trailer trucks—without being opened. The handling system is completely mechanized so that all handling is done with cranes [2] and special forklift trucks. All containers are numbered and tracked using computerized systems.
+
+>Containerization originated several centuries ago but was not well developed or widely applied until after World War II, when it dramatically reduced the costs of transport, supported the post-war boom in international trade, and was a major element in globalization. Containerization did away with the manual sorting of most shipments and the need for warehousing. It displaced many thousands of dock workers who formerly handled break bulk cargo. Containerization also reduced congestion in ports, significantly shortened shipping time and reduced losses from damage and theft.[3]
 
 Docker Use Cases
 ================
@@ -33,8 +39,22 @@ Packaging Legacy Application
 Migration to Modern Infrastructure/Cloud
 ----------------------------------------
 
+Operation System Level Virtualization
+=====================================
+![OS Level Virtualization](/docker-demo/images/docker-virtualization.png)
+
+Technical Components
+--------------------
+- Container format (libcontainer on linux)
+- Isolation (linux kernal namespaces)
+    1. filesystem - layered performant isolated root file system with copy on write semantics
+    2. process - isolated process environment
+    3. network - isolated virtual network interfaces and ips
+- Resource Groups (linux kernal control groups)
+
 Docker Architecture
 ===================
+![Docker Architecture](/docker-demo/images/docker-architecture-2.png)
 
 Host (Docker Daemon)
 --------------------
@@ -42,14 +62,6 @@ Host (Docker Daemon)
 Client
 ------
 
-Technical Components
-====================
-- Container format (libcontainer on linux)
-- Isolation (linux kernal namespaces)
-    1. filesystem - layered performant isolated root file system with copy on write semantics
-    2. process - isolated process environment
-    3. network - isolated virtual network interfaces and ips
-- Resource Groups (linux kernal control groups)
 
 Docker on Linux vs Docker on Windows?
 -------------------------------------

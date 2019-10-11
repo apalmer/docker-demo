@@ -162,6 +162,8 @@ Books
 
 [The Docker Ecosystem](https://washraf.gitbooks.io/the-docker-ecosystem)
 
+[Modernizing existing .Net applications with Azure cloud and Windows Containers](https://github.com/dotnet-architecture/eShopModernizing)
+
 Websites
 --------
 [A Not Very Short Introduction to Docker](https://blog.jayway.com/2015/03/21/a-not-very-short-introduction-to-docker/)

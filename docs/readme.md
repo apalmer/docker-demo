@@ -1,7 +1,7 @@
 What is Docker?
 ===============
 
-![GitHub Logo](/images/logo.png)
+![GitHub Logo](/docker-demo/images/docker-logo.png)
 ![NEWNESS](/images/VM%402x.png)
 
 Operation System Level Virtualization

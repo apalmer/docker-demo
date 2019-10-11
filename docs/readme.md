@@ -76,7 +76,7 @@ Docker is based on core Linux kernel functionality which have been in place sinc
 
 
 ### Windows
-![Docker Architectural Detail](docker-demo/images/docker-architectural-detail-linux.png)
+![Docker Architectural Detail](docker-demo/images/docker-architectural-detail-windows.png)
 
 Docker on Windows is based on relatively new functionality implemented in the Windows OS since 2016. 
 - Windows 10
@@ -94,7 +94,7 @@ Windows Server Containers
 - Licensing of Windows Server Containers is at the Docker host level, i.e. 1 license of for 1 host with 100 containers running on it requires 1 license
 - Windows version of the host and the clients must match
 
-![Docker on Windows](/docker-demo/images/docker-container-windows-vs-hyper-v.png)
+![Docker on Windows](/docker-demo/images/docker-on-windows-windows-and-linux.png)
 There are at least 3 different ways to run Linux containers on Windows:
 1. [Linux containers in a Moby VM](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers)
 2. [Linux Containers with Hyper-V isolation](https://docs.microsoft.com/en-us/virtualization/windowscontainers/deploy-containers/linux-containers)

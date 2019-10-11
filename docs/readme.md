@@ -2,12 +2,12 @@ What is Docker?
 ===============
 ![Docker Logo](/docker-demo/images/docker-logo.png)
 
+Docker is a technology which provides containerization of processes on Linux, MacOS and Windows operating systems. A containerized process is isolated from other processes executing on the operating system. From the point of view of the containerized process it is running 'alone' on the OS. The resources that it uses such as the filesystem, network, etc are 'virtualized' (namespaced in Linux). Docker containerization is a standardized/ergonomic wrapper around low level Operating System services that provide isolation. Hence this approach to process isolation is commonly known as Operating System Level Virtualization.
+
 Operation System Level Virtualization
 -------------------------------------
 ![OS Level Virtualization](/docker-demo/images/docker-virtualization.png)
 
-Process Level Isolation
----------------------------
 
 Why is Docker Important?
 ========================

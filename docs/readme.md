@@ -76,7 +76,7 @@ Docker is based on core Linux kernel functionality which have been in place sinc
 
 
 ### Windows
-![Docker Architectural Detail Windows](docker-demo/images/docker-architectural-detail-windows.png)
+![Docker Architectural Detail Windows](/docker-demo/images/docker-architectural-detail-windows.png)
 
 Docker on Windows is based on relatively new functionality implemented in the Windows OS since 2016. 
 - Windows 10

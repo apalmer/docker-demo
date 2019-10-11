@@ -17,9 +17,9 @@ According to [Docker Inc's](https://www.docker.com/why-docker) marketing researc
 Container metaphor
 ------------------
 [Wikipedia](https://en.wikipedia.org/wiki/Containerization)
->Containerization is a system of intermodal freight transport using intermodal containers (also called shipping containers and ISO containers).[1] The containers have standardized dimensions. They can be loaded and unloaded, stacked, transported efficiently over long distances, and transferred from one mode of transport to another—container ships, rail transport flatcars, and semi-trailer trucks—without being opened. The handling system is completely mechanized so that all handling is done with cranes [2] and special forklift trucks. All containers are numbered and tracked using computerized systems.
+>Containerization is a system of intermodal freight transport using intermodal containers (also called shipping containers and ISO containers). The containers have standardized dimensions. They can be loaded and unloaded, stacked, transported efficiently over long distances, and transferred from one mode of transport to another—container ships, rail transport flatcars, and semi-trailer trucks—without being opened. The handling system is completely mechanized so that all handling is done with cranes and special forklift trucks. All containers are numbered and tracked using computerized systems.
 
->Containerization originated several centuries ago but was not well developed or widely applied until after World War II, when it dramatically reduced the costs of transport, supported the post-war boom in international trade, and was a major element in globalization. Containerization did away with the manual sorting of most shipments and the need for warehousing. It displaced many thousands of dock workers who formerly handled break bulk cargo. Containerization also reduced congestion in ports, significantly shortened shipping time and reduced losses from damage and theft.[3]
+>Containerization originated several centuries ago but was not well developed or widely applied until after World War II, when it dramatically reduced the costs of transport, supported the post-war boom in international trade, and was a major element in globalization. Containerization did away with the manual sorting of most shipments and the need for warehousing. It displaced many thousands of dock workers who formerly handled break bulk cargo. Containerization also reduced congestion in ports, significantly shortened shipping time and reduced losses from damage and theft.
 
 Docker Use Cases
 ================
@@ -41,7 +41,7 @@ Migration to Modern Infrastructure/Cloud
 
 Operation System Level Virtualization
 =====================================
-![OS Level Virtualization](/docker-demo/images/docker-virtualization.png)
+![OS Level Virtualization](/docker-demo/images/docker-virtualization-2.png)
 
 Docker Architecture
 ===================

@@ -1,0 +1,22 @@
+version: '3.4'
+services:
+  api:
+    container_name: idd_api
+    image: adigunpalmer/idd-api:latest
+    networks:
+      - idd_net
+    build: 
+      context: .
+      dockerfile: Dockerfile.api
+  interface:
+    container_name: idd_interface
+    image: adigunpalmer/idd-interface:latest
+    networks:
+      - idd_net
+    ports:
+      - "8080:80"
+    build: 
+      context: .
+      dockerfile: Dockerfile.interface
+networks:
+    idd_net:

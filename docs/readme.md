@@ -85,6 +85,8 @@ Docker on Windows is based on relatively new functionality implemented in the Wi
 
 Docker does not support Windows (WinForms, etc) user interfaces.
 
+### Types of Windows Containers
+
 ![Windows Container's vs Hyper-V Containers](/docker-demo/images/docker-container-windows-vs-hyper-v.png)
 
 Hyper-V Containers
@@ -94,6 +96,8 @@ Hyper-V Containers
 Windows Server Containers
 - Licensing of Windows Server Containers is at the Docker host level, i.e. 1 license of for 1 host with 100 containers running on it requires 1 license
 - Windows version of the host and the clients must match
+
+### Linux Containers on Windows
 
 ![Docker on Windows](/docker-demo/images/docker-on-windows-windows-and-linux.png)
 

@@ -57,6 +57,17 @@ Client
 [Official Docker Documentation:](https://docs.docker.com/engine/docker-overview/)
 >The Docker client (docker) is the primary way that many Docker users interact with Docker. When you use commands such as docker run, the client sends these commands to dockerd, which carries them out. The docker command uses the Docker API. The Docker client can communicate with more than one daemon.
 
+Registry
+--------
+[Official Docker Documentation:](https://docs.docker.com/engine/docker-overview/)
+>A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own private registry. If you use Docker Datacenter (DDC), it includes Docker Trusted Registry (DTR).
+
+Docker on Linux vs Docker on Windows?
+-------------------------------------
+
+### Linux
+![Docker Architectural Detail Linux](/docker-demo/images/docker-architectural-detail-linux.png)
+
 Technical Components
 --------------------
 - Container format (libcontainer on linux)
@@ -65,12 +76,6 @@ Technical Components
     2. process - isolated process environment
     3. network - isolated virtual network interfaces and ips
 - Resource Groups (linux kernal control groups)
-
-Docker on Linux vs Docker on Windows?
--------------------------------------
-
-### Linux
-![Docker Architectural Detail Linux](/docker-demo/images/docker-architectural-detail-linux.png)
 
 Docker is based on core Linux kernel functionality which have been in place since approximately 2006 timeframe. 
 
